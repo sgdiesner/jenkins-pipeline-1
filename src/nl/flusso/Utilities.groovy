@@ -9,6 +9,7 @@ class Utilities implements Serializable{
     Utilities(steps){this.steps = steps}
     
     def sayHello(String name){
-        steps.sh "echo $name"
+        //steps.sh "echo $name"
+        steps.bat "echo $name"
     }
 }
