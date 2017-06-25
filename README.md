@@ -1,7 +1,7 @@
 # Sample pipeline library
 
 Pipeline script:
-
+````
 @Library('sgdiesner-lib') _
 
 import nl.flusso.Utilities
@@ -30,3 +30,4 @@ stage("Tests"){
         utils.sayHello(name)
     }
 }
+```
