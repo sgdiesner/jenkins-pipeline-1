@@ -7,6 +7,6 @@ def call(body) {
 
     // now build, based on the configuration provided
     node {
-        bat "echo Hello from DSL land"
+        bat "echo Hello ${config.name} from DSL land"
     }
 }
